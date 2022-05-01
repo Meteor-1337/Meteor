@@ -34,97 +34,97 @@ proxies:
   - {name: HK.广州香港-1.移动.300M.NF, server: gdcm-1.onescloud.top, port: 20015, type: ssr, cipher: rc4-md5, password: fNqa6f, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 27192:PlfAQi, obfs-param: 7cca427192.microsoft.com, udp: true}
   - {name: DE.广州德国-1.移动.300M, server: gdcm-2.onescloud.top, port: 22020, type: ssr, cipher: rc4-md5, password: fNqa6f, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 27192:PlfAQi, obfs-param: 7cca427192.microsoft.com, udp: true}
   - {name: 173.82.186.25:60001, server: 173.82.186.25, port: 60001, type: ssr, cipher: dummy, password: enterpassword, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 柬埔寨（Meteor）, server: 220.158.232.150, port: 1234, type: ss, cipher: aes-256-gcm, password: 66d4afe5-5efc-465c-a6dc-83f44d6b6007, udp: true}
-  - {name: 美国（Meteor）, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
-  - {name: 美国（Meteor） 2, server: jp.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
-  - {name: 美国（Meteor） 3, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
-  - {name: 美国（Meteor） 4, server: hk.omgwtf.website, port: 443, type: trojan, password: t4UzK3V1dXXumlz8, skip-cert-verify: true, udp: true}
-  - {name: 美国（Meteor） 5, server: 45.137.97.205, port: 58000, type: trojan, password: 5984a040-42d2-4fae-b75b-ac614300a03b, sni: fmus2.shanjun.me, skip-cert-verify: true, udp: true}
-  - {name: 美国（Meteor） 6, server: 169.197.142.99, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国（Meteor） 7, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国（Meteor） 8, server: 169.197.142.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国（Meteor） 9, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国（Meteor） 10, server: 169.197.142.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国（Meteor） 11, server: 169.197.142.99, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国（Meteor） 12, server: 169.197.142.99, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国（Meteor） 13, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国（Meteor） 14, server: 104.194.77.123, port: 57998, type: ss, cipher: aes-256-gcm, password: 5AsJpT36WpdWbv5r, udp: true}
-  - {name: 美国（Meteor） 15, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国（Meteor） 16, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国（Meteor） 17, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国（Meteor） 18, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国（Meteor） 19, server: 45.78.5.173, port: 57998, type: ss, cipher: aes-256-gcm, password: 5AsJpT36WpdWbv5r, udp: true}
-  - {name: 美国（Meteor） 20, server: 45.78.8.236, port: 29369, type: ss, cipher: aes-256-gcm, password: XB9Xj5EXtsn5ZwbA, udp: true}
-  - {name: 美国（Meteor） 21, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 美国（Meteor） 22, server: 34.125.239.135, port: 64609, type: vmess, uuid: 8d6876a6-f098-4af0-bf7f-328f87ef00f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国（Meteor） 23, server: 119.147.20.236, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
-  - {name: 美国（Meteor） 24, server: cm1-kr.hutaod.me, port: 12134, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国（Meteor） 25, server: cm1-us.hutaod.me, port: 12233, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国（Meteor） 26, server: cm1-us.hutaod.me, port: 12231, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国（Meteor） 27, server: 4.ezydfdd.com, port: 443, type: vmess, uuid: c0cb6989-5967-447d-ea34-b4b0aa70b9f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 4.ezydfdd.com}}, udp: true}
-  - {name: 美国（Meteor） 28, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxus.fovi.tk}}, udp: true}
-  - {name: 美国（Meteor） 29, server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国（Meteor） 30, server: e-gzcm.linkdns.xyz, port: 40248, type: vmess, uuid: 9ec9c44b-13a6-3b7d-b318-d44a6e66fd4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /test, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
-  - {name: 美国（Meteor） 31, server: e-gzcm.linkdns.xyz, port: 40247, type: vmess, uuid: 9ec9c44b-13a6-3b7d-b318-d44a6e66fd4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /test, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
-  - {name: 美国（Meteor） 32, server: e-gzcm.linkdns.xyz, port: 40242, type: vmess, uuid: 9ec9c44b-13a6-3b7d-b318-d44a6e66fd4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /test, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
-  - {name: 美国（Meteor） 33, server: e-gzcm.linkdns.xyz, port: 40241, type: vmess, uuid: 9ec9c44b-13a6-3b7d-b318-d44a6e66fd4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /test, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
-  - {name: 美国（Meteor） 34, server: ublubeu.fly.dev, port: 443, type: vmess, uuid: 18656003-e8b6-49e4-90f7-85fe53fcf7c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /18656003-e8b6-49e4-90f7-85fe53fcf7c7-vmess, headers: {Host: ublubeu.fly.dev}}, udp: true}
-  - {name: 美国（Meteor） 35, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: us02.gogogoo.cyou}}, udp: true}
-  - {name: 美国（Meteor） 36, server: uscera.moonfree.top, port: 443, type: vmess, uuid: 122f166c-537e-4e8f-9310-4e50652fa7e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uscera.moonfree.top}}, udp: true}
-  - {name: 美国（Meteor） 37, server: yzhk.fly.dev, port: 443, type: vmess, uuid: 18656003-e8b6-49e4-90f7-85fe53fcf7c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /18656003-e8b6-49e4-90f7-85fe53fcf7c7-vmess, headers: {Host: yzhk.fly.dev}}, udp: true}
-  - {name: 美国（Meteor） 38, server: 45.142.158.72, port: 56482, type: vmess, uuid: a1c5d3bd-0a35-4c53-ba48-a14fa148eda2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾（Meteor）, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 台湾（Meteor） 2, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 93bdaed5-13c5-3927-93d7-a6877c5ac8d2, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
-  - {name: 台湾（Meteor） 3, server: 119.147.20.236, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
-  - {name: 台湾（Meteor） 4, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
-  - {name: 台湾（Meteor） 5, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 93bdaed5-13c5-3927-93d7-a6877c5ac8d2, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
-  - {name: 新加坡（Meteor）, server: sg1.qingyun123.xyz, port: 10001, type: trojan, password: 4337dfb9-bc77-4c08-8672-1f12f4d6f7fb, sni: sg1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡（Meteor） 2, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 新加坡（Meteor） 3, server: cm1-sg.hutaod.me, port: 12336, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡（Meteor） 4, server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/ntmdq/6267584ee4988/, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
-  - {name: 新加坡（Meteor） 5, server: sg3.31vpn.com, port: 443, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/ntmdq/6267584ee4988/, headers: {Host: sg3.31vpn.com}}, udp: true}
-  - {name: 俄罗斯（Meteor）, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 俄罗斯（Meteor） 2, server: ruvds.testx.eu.org, port: 443, type: vmess, uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/vmess-share/?ed=2048", headers: {Host: ruvds.testx.eu.org}}, udp: true}
-  - {name: 荷兰（Meteor）, server: 152.70.49.174, port: 55988, type: vmess, uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国（Meteor）, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
-  - {name: 韩国（Meteor） 2, server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国（Meteor） 3, server: cm1-kr.hutaod.me, port: 12135, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本（Meteor）, server: jp1.qingyun123.xyz, port: 10100, type: trojan, password: 4337dfb9-bc77-4c08-8672-1f12f4d6f7fb, sni: jp1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本（Meteor） 2, server: cm1-jp.hutaod.me, port: 12035, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本（Meteor） 3, server: cm1-jp.hutaod.me, port: 12031, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本（Meteor） 4, server: 140.238.48.194, port: 8888, type: vmess, uuid: 24f1dfad-1267-4297-8e88-0e9b8ef47e47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本（Meteor） 5, server: jp01-tls-vm0.entry.ikuuu.casa, port: 892, type: vmess, uuid: 31a43857-f64f-3919-bfd8-32858b804749, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp01-tls-vm0.entry.vm-pass.org}}, udp: true}
-  - {name: 日本（Meteor） 6, server: jpgithub.edgehelper.com, port: 53900, type: vmess, uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 日本（Meteor） 7, server: jp03-vm0.entry.ikuuu.casa, port: 447, type: vmess, uuid: 31a43857-f64f-3919-bfd8-32858b804749, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp03-vm0.entry.ikuuu.casa}}, udp: true}
-  - {name: 日本（Meteor） 8, server: jp02-vm0.entry.ikuuu.casa, port: 447, type: vmess, uuid: 31a43857-f64f-3919-bfd8-32858b804749, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp02-vm0.entry.ikuuu.casa}}, udp: true}
-  - {name: 日本（Meteor） 9, server: jp06-vm0.entry.ikuuu.casa, port: 447, type: vmess, uuid: 31a43857-f64f-3919-bfd8-32858b804749, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp03-vm0.entry.ikuuu.casa}}, udp: true}
-  - {name: 日本（Meteor） 10, server: 140.238.48.194, port: 8888, type: vmess, uuid: 24f1dfad-1267-4297-8e88-0e9b8ef47e47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本（Meteor） 11, server: v2-1.godlight.xyz, port: 12236, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /j75g1461x, headers: {Host: v2-1.godlight.xyz}}, udp: true}
-  - {name: 日本（Meteor） 12, server: 140.238.48.194, port: 8888, type: vmess, uuid: 24f1dfad-1267-4297-8e88-0e9b8ef47e47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 印度（Meteor）, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
-  - {name: 印度（Meteor） 2, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, skip-cert-verify: true, udp: true}
-  - {name: 香港（Meteor）, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
-  - {name: 香港（Meteor） 2, server: api.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
-  - {name: 香港（Meteor） 3, server: akkq1.baozipay.top, port: 443, type: trojan, password: e8WdY5WGH2TV1sT1m, skip-cert-verify: true, udp: true}
-  - {name: 香港（Meteor） 4, server: hk1.qingyun123.xyz, port: 10001, type: trojan, password: 50e23a9c-d2b0-4e36-b2d9-85fe3646ca05, sni: hk1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港（Meteor） 5, server: cm1-hk.hutaod.me, port: 12438, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港（Meteor） 6, server: imgU140111366548.hk.huawei-cacahe.com, port: 20224, type: vmess, uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
-  - {name: 香港（Meteor） 7, server: imgU140111366548.hk.huawei-cacahe.com, port: 20224, type: vmess, uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
-  - {name: 香港（Meteor） 8, server: imgU140111366548.hk.huawei-cacahe.com, port: 20224, type: vmess, uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
-  - {name: 香港（Meteor） 9, server: az.gzfxd.xyz, port: 16650, type: vmess, uuid: 66d4afe5-5efc-465c-a6dc-83f44d6b6007, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
-  - {name: 香港（Meteor） 10, server: cm1-hk.hutaod.me, port: 12438, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港（Meteor） 11, server: hk5.fdns.cloudlink123.com, port: 80, type: vmess, uuid: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
-  - {name: 香港（Meteor） 12, server: hk01.bosaidong.buzz, port: 80, type: vmess, uuid: 2adef817-ff89-4d0c-8782-694ba4e8d899, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
-  - {name: 英国（Meteor）, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: true, udp: true}
-  - {name: 英国（Meteor） 2, server: 120.240.168.126, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 英国（Meteor） 3, server: v4zx.v6speed.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
-  - {name: 英国（Meteor） 4, server: 45.142.158.72, port: 56482, type: vmess, uuid: a1c5d3bd-0a35-4c53-ba48-a14fa148eda2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 加拿大（Meteor）, server: 134.195.196.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 加拿大（Meteor） 2, server: 134.195.196.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 加拿大（Meteor） 3, server: 134.195.196.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 加拿大（Meteor） 4, server: 134.195.196.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 加拿大（Meteor） 5, server: cm1-sg.hutaod.me, port: 12336, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 澳大利亚（Meteor）, server: 129.154.54.75, port: 33004, type: vmess, uuid: 4f14695c-31b9-45bf-ca34-1d82170fc100, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
+  - {name: 柬埔寨（Meteor 5.1）, server: 220.158.232.150, port: 1234, type: ss, cipher: aes-256-gcm, password: 66d4afe5-5efc-465c-a6dc-83f44d6b6007, udp: true}
+  - {name: 美国（Meteor 5.1）, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, skip-cert-verify: true, udp: true}
+  - {name: 美国（Meteor 5.1） 2, server: jp.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
+  - {name: 美国（Meteor 5.1） 3, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, skip-cert-verify: true, udp: true}
+  - {name: 美国（Meteor 5.1） 4, server: hk.omgwtf.website, port: 443, type: trojan, password: t4UzK3V1dXXumlz8, skip-cert-verify: true, udp: true}
+  - {name: 美国（Meteor 5.1） 5, server: 45.137.97.205, port: 58000, type: trojan, password: 5984a040-42d2-4fae-b75b-ac614300a03b, sni: fmus2.shanjun.me, skip-cert-verify: true, udp: true}
+  - {name: 美国（Meteor 5.1） 6, server: 169.197.142.99, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国（Meteor 5.1） 7, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国（Meteor 5.1） 8, server: 169.197.142.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国（Meteor 5.1） 9, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国（Meteor 5.1） 10, server: 169.197.142.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国（Meteor 5.1） 11, server: 169.197.142.99, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国（Meteor 5.1） 12, server: 169.197.142.99, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国（Meteor 5.1） 13, server: 169.197.142.99, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国（Meteor 5.1） 14, server: 104.194.77.123, port: 57998, type: ss, cipher: aes-256-gcm, password: 5AsJpT36WpdWbv5r, udp: true}
+  - {name: 美国（Meteor 5.1） 15, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国（Meteor 5.1） 16, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国（Meteor 5.1） 17, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国（Meteor 5.1） 18, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国（Meteor 5.1） 19, server: 45.78.5.173, port: 57998, type: ss, cipher: aes-256-gcm, password: 5AsJpT36WpdWbv5r, udp: true}
+  - {name: 美国（Meteor 5.1） 20, server: 45.78.8.236, port: 29369, type: ss, cipher: aes-256-gcm, password: XB9Xj5EXtsn5ZwbA, udp: true}
+  - {name: 美国（Meteor 5.1） 21, server: cn1.relay.iepl.pw, port: 50600, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: 美国（Meteor 5.1） 22, server: 34.125.239.135, port: 64609, type: vmess, uuid: 8d6876a6-f098-4af0-bf7f-328f87ef00f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国（Meteor 5.1） 23, server: 119.147.20.236, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
+  - {name: 美国（Meteor 5.1） 24, server: cm1-kr.hutaod.me, port: 12134, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国（Meteor 5.1） 25, server: cm1-us.hutaod.me, port: 12233, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国（Meteor 5.1） 26, server: cm1-us.hutaod.me, port: 12231, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国（Meteor 5.1） 27, server: 4.ezydfdd.com, port: 443, type: vmess, uuid: c0cb6989-5967-447d-ea34-b4b0aa70b9f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwe, headers: {Host: 4.ezydfdd.com}}, udp: true}
+  - {name: 美国（Meteor 5.1） 28, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxus.fovi.tk}}, udp: true}
+  - {name: 美国（Meteor 5.1） 29, server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国（Meteor 5.1） 30, server: e-gzcm.linkdns.xyz, port: 40248, type: vmess, uuid: 9ec9c44b-13a6-3b7d-b318-d44a6e66fd4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /test, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
+  - {name: 美国（Meteor 5.1） 31, server: e-gzcm.linkdns.xyz, port: 40247, type: vmess, uuid: 9ec9c44b-13a6-3b7d-b318-d44a6e66fd4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /test, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
+  - {name: 美国（Meteor 5.1） 32, server: e-gzcm.linkdns.xyz, port: 40242, type: vmess, uuid: 9ec9c44b-13a6-3b7d-b318-d44a6e66fd4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /test, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
+  - {name: 美国（Meteor 5.1） 33, server: e-gzcm.linkdns.xyz, port: 40241, type: vmess, uuid: 9ec9c44b-13a6-3b7d-b318-d44a6e66fd4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /test, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
+  - {name: 美国（Meteor 5.1） 34, server: ublubeu.fly.dev, port: 443, type: vmess, uuid: 18656003-e8b6-49e4-90f7-85fe53fcf7c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /18656003-e8b6-49e4-90f7-85fe53fcf7c7-vmess, headers: {Host: ublubeu.fly.dev}}, udp: true}
+  - {name: 美国（Meteor 5.1） 35, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: us02.gogogoo.cyou}}, udp: true}
+  - {name: 美国（Meteor 5.1） 36, server: uscera.moonfree.top, port: 443, type: vmess, uuid: 122f166c-537e-4e8f-9310-4e50652fa7e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uscera.moonfree.top}}, udp: true}
+  - {name: 美国（Meteor 5.1） 37, server: yzhk.fly.dev, port: 443, type: vmess, uuid: 18656003-e8b6-49e4-90f7-85fe53fcf7c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /18656003-e8b6-49e4-90f7-85fe53fcf7c7-vmess, headers: {Host: yzhk.fly.dev}}, udp: true}
+  - {name: 美国（Meteor 5.1） 38, server: 45.142.158.72, port: 56482, type: vmess, uuid: a1c5d3bd-0a35-4c53-ba48-a14fa148eda2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾（Meteor 5.1）, server: cn1.relay.iepl.pw, port: 50200, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: 台湾（Meteor 5.1） 2, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 93bdaed5-13c5-3927-93d7-a6877c5ac8d2, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
+  - {name: 台湾（Meteor 5.1） 3, server: 119.147.20.236, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
+  - {name: 台湾（Meteor 5.1） 4, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
+  - {name: 台湾（Meteor 5.1） 5, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 93bdaed5-13c5-3927-93d7-a6877c5ac8d2, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
+  - {name: 新加坡（Meteor 5.1）, server: sg1.qingyun123.xyz, port: 10001, type: trojan, password: 4337dfb9-bc77-4c08-8672-1f12f4d6f7fb, sni: sg1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡（Meteor 5.1） 2, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: 新加坡（Meteor 5.1） 3, server: cm1-sg.hutaod.me, port: 12336, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡（Meteor 5.1） 4, server: sg3.31vpn.com, port: 80, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/ntmdq/6267584ee4988/, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
+  - {name: 新加坡（Meteor 5.1） 5, server: sg3.31vpn.com, port: 443, type: vmess, uuid: ff382d09-becd-41cb-8e4f-3e256b27de47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/ntmdq/6267584ee4988/, headers: {Host: sg3.31vpn.com}}, udp: true}
+  - {name: 俄罗斯（Meteor 5.1）, server: cn1.relay.iepl.pw, port: 50700, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: 俄罗斯（Meteor 5.1） 2, server: ruvds.testx.eu.org, port: 443, type: vmess, uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/vmess-share/?ed=2048", headers: {Host: ruvds.testx.eu.org}}, udp: true}
+  - {name: 荷兰（Meteor 5.1）, server: 152.70.49.174, port: 55988, type: vmess, uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韩国（Meteor 5.1）, server: cn1.relay.iepl.pw, port: 50400, type: ss, cipher: aes-128-gcm, password: df87f3f2-f2a7-4fae-ae7d-507cea790c95, udp: true}
+  - {name: 韩国（Meteor 5.1） 2, server: 152.70.88.168, port: 49081, type: vmess, uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韩国（Meteor 5.1） 3, server: cm1-kr.hutaod.me, port: 12135, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本（Meteor 5.1）, server: jp1.qingyun123.xyz, port: 10100, type: trojan, password: 4337dfb9-bc77-4c08-8672-1f12f4d6f7fb, sni: jp1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本（Meteor 5.1） 2, server: cm1-jp.hutaod.me, port: 12035, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本（Meteor 5.1） 3, server: cm1-jp.hutaod.me, port: 12031, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本（Meteor 5.1） 4, server: 140.238.48.194, port: 8888, type: vmess, uuid: 24f1dfad-1267-4297-8e88-0e9b8ef47e47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本（Meteor 5.1） 5, server: jp01-tls-vm0.entry.ikuuu.casa, port: 892, type: vmess, uuid: 31a43857-f64f-3919-bfd8-32858b804749, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp01-tls-vm0.entry.vm-pass.org}}, udp: true}
+  - {name: 日本（Meteor 5.1） 6, server: jpgithub.edgehelper.com, port: 53900, type: vmess, uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 日本（Meteor 5.1） 7, server: jp03-vm0.entry.ikuuu.casa, port: 447, type: vmess, uuid: 31a43857-f64f-3919-bfd8-32858b804749, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp03-vm0.entry.ikuuu.casa}}, udp: true}
+  - {name: 日本（Meteor 5.1） 8, server: jp02-vm0.entry.ikuuu.casa, port: 447, type: vmess, uuid: 31a43857-f64f-3919-bfd8-32858b804749, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp02-vm0.entry.ikuuu.casa}}, udp: true}
+  - {name: 日本（Meteor 5.1） 9, server: jp06-vm0.entry.ikuuu.casa, port: 447, type: vmess, uuid: 31a43857-f64f-3919-bfd8-32858b804749, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp03-vm0.entry.ikuuu.casa}}, udp: true}
+  - {name: 日本（Meteor 5.1） 10, server: 140.238.48.194, port: 8888, type: vmess, uuid: 24f1dfad-1267-4297-8e88-0e9b8ef47e47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本（Meteor 5.1） 11, server: v2-1.godlight.xyz, port: 12236, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /j75g1461x, headers: {Host: v2-1.godlight.xyz}}, udp: true}
+  - {name: 日本（Meteor 5.1） 12, server: 140.238.48.194, port: 8888, type: vmess, uuid: 24f1dfad-1267-4297-8e88-0e9b8ef47e47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 印度（Meteor 5.1）, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
+  - {name: 印度（Meteor 5.1） 2, server: jgwhdlb4.gaox.ml, port: 443, type: trojan, password: 081a4198-d664-4bc5-a7c6-e35982da964b, skip-cert-verify: true, udp: true}
+  - {name: 香港（Meteor 5.1）, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
+  - {name: 香港（Meteor 5.1） 2, server: api.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: true, udp: true}
+  - {name: 香港（Meteor 5.1） 3, server: akkq1.baozipay.top, port: 443, type: trojan, password: e8WdY5WGH2TV1sT1m, skip-cert-verify: true, udp: true}
+  - {name: 香港（Meteor 5.1） 4, server: hk1.qingyun123.xyz, port: 10001, type: trojan, password: 50e23a9c-d2b0-4e36-b2d9-85fe3646ca05, sni: hk1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港（Meteor 5.1） 5, server: cm1-hk.hutaod.me, port: 12438, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港（Meteor 5.1） 6, server: imgU140111366548.hk.huawei-cacahe.com, port: 20224, type: vmess, uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
+  - {name: 香港（Meteor 5.1） 7, server: imgU140111366548.hk.huawei-cacahe.com, port: 20224, type: vmess, uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
+  - {name: 香港（Meteor 5.1） 8, server: imgU140111366548.hk.huawei-cacahe.com, port: 20224, type: vmess, uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
+  - {name: 香港（Meteor 5.1） 9, server: az.gzfxd.xyz, port: 16650, type: vmess, uuid: 66d4afe5-5efc-465c-a6dc-83f44d6b6007, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
+  - {name: 香港（Meteor 5.1） 10, server: cm1-hk.hutaod.me, port: 12438, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港（Meteor 5.1） 11, server: hk5.fdns.cloudlink123.com, port: 80, type: vmess, uuid: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
+  - {name: 香港（Meteor 5.1） 12, server: hk01.bosaidong.buzz, port: 80, type: vmess, uuid: 2adef817-ff89-4d0c-8782-694ba4e8d899, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
+  - {name: 英国（Meteor 5.1）, server: jgwld4.gaox.ml, port: 443, type: trojan, password: 58d32c66-43b1-4561-9951-d87c9123774e, skip-cert-verify: true, udp: true}
+  - {name: 英国（Meteor 5.1） 2, server: 120.240.168.126, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 英国（Meteor 5.1） 3, server: v4zx.v6speed.com, port: 38615, type: ss, cipher: aes-128-gcm, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 英国（Meteor 5.1） 4, server: 45.142.158.72, port: 56482, type: vmess, uuid: a1c5d3bd-0a35-4c53-ba48-a14fa148eda2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 加拿大（Meteor 5.1）, server: 134.195.196.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大（Meteor 5.1） 2, server: 134.195.196.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大（Meteor 5.1） 3, server: 134.195.196.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大（Meteor 5.1） 4, server: 134.195.196.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大（Meteor 5.1） 5, server: cm1-sg.hutaod.me, port: 12336, type: vmess, uuid: 6954c760-6c9c-3f2a-bec0-1348296177e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚（Meteor 5.1）, server: 129.154.54.75, port: 33004, type: vmess, uuid: 4f14695c-31b9-45bf-ca34-1d82170fc100, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aweikeji-YouTube-TG}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -160,97 +160,97 @@ proxy-groups:
       - HK.广州香港-1.移动.300M.NF
       - DE.广州德国-1.移动.300M
       - 173.82.186.25:60001
-      - 柬埔寨（Meteor）
-      - 美国（Meteor）
-      - 美国（Meteor） 2
-      - 美国（Meteor） 3
-      - 美国（Meteor） 4
-      - 美国（Meteor） 5
-      - 美国（Meteor） 6
-      - 美国（Meteor） 7
-      - 美国（Meteor） 8
-      - 美国（Meteor） 9
-      - 美国（Meteor） 10
-      - 美国（Meteor） 11
-      - 美国（Meteor） 12
-      - 美国（Meteor） 13
-      - 美国（Meteor） 14
-      - 美国（Meteor） 15
-      - 美国（Meteor） 16
-      - 美国（Meteor） 17
-      - 美国（Meteor） 18
-      - 美国（Meteor） 19
-      - 美国（Meteor） 20
-      - 美国（Meteor） 21
-      - 美国（Meteor） 22
-      - 美国（Meteor） 23
-      - 美国（Meteor） 24
-      - 美国（Meteor） 25
-      - 美国（Meteor） 26
-      - 美国（Meteor） 27
-      - 美国（Meteor） 28
-      - 美国（Meteor） 29
-      - 美国（Meteor） 30
-      - 美国（Meteor） 31
-      - 美国（Meteor） 32
-      - 美国（Meteor） 33
-      - 美国（Meteor） 34
-      - 美国（Meteor） 35
-      - 美国（Meteor） 36
-      - 美国（Meteor） 37
-      - 美国（Meteor） 38
-      - 台湾（Meteor）
-      - 台湾（Meteor） 2
-      - 台湾（Meteor） 3
-      - 台湾（Meteor） 4
-      - 台湾（Meteor） 5
-      - 新加坡（Meteor）
-      - 新加坡（Meteor） 2
-      - 新加坡（Meteor） 3
-      - 新加坡（Meteor） 4
-      - 新加坡（Meteor） 5
-      - 俄罗斯（Meteor）
-      - 俄罗斯（Meteor） 2
-      - 荷兰（Meteor）
-      - 韩国（Meteor）
-      - 韩国（Meteor） 2
-      - 韩国（Meteor） 3
-      - 日本（Meteor）
-      - 日本（Meteor） 2
-      - 日本（Meteor） 3
-      - 日本（Meteor） 4
-      - 日本（Meteor） 5
-      - 日本（Meteor） 6
-      - 日本（Meteor） 7
-      - 日本（Meteor） 8
-      - 日本（Meteor） 9
-      - 日本（Meteor） 10
-      - 日本（Meteor） 11
-      - 日本（Meteor） 12
-      - 印度（Meteor）
-      - 印度（Meteor） 2
-      - 香港（Meteor）
-      - 香港（Meteor） 2
-      - 香港（Meteor） 3
-      - 香港（Meteor） 4
-      - 香港（Meteor） 5
-      - 香港（Meteor） 6
-      - 香港（Meteor） 7
-      - 香港（Meteor） 8
-      - 香港（Meteor） 9
-      - 香港（Meteor） 10
-      - 香港（Meteor） 11
-      - 香港（Meteor） 12
-      - 英国（Meteor）
-      - 英国（Meteor） 2
-      - 英国（Meteor） 3
-      - 英国（Meteor） 4
-      - 加拿大（Meteor）
-      - 加拿大（Meteor） 2
-      - 加拿大（Meteor） 3
-      - 加拿大（Meteor） 4
-      - 加拿大（Meteor） 5
-      - 澳大利亚（Meteor）
+      - 柬埔寨（Meteor 5.1）
+      - 美国（Meteor 5.1）
+      - 美国（Meteor 5.1） 2
+      - 美国（Meteor 5.1） 3
+      - 美国（Meteor 5.1） 4
+      - 美国（Meteor 5.1） 5
+      - 美国（Meteor 5.1） 6
+      - 美国（Meteor 5.1） 7
+      - 美国（Meteor 5.1） 8
+      - 美国（Meteor 5.1） 9
+      - 美国（Meteor 5.1） 10
+      - 美国（Meteor 5.1） 11
+      - 美国（Meteor 5.1） 12
+      - 美国（Meteor 5.1） 13
+      - 美国（Meteor 5.1） 14
+      - 美国（Meteor 5.1） 15
+      - 美国（Meteor 5.1） 16
+      - 美国（Meteor 5.1） 17
+      - 美国（Meteor 5.1） 18
+      - 美国（Meteor 5.1） 19
+      - 美国（Meteor 5.1） 20
+      - 美国（Meteor 5.1） 21
+      - 美国（Meteor 5.1） 22
+      - 美国（Meteor 5.1） 23
+      - 美国（Meteor 5.1） 24
+      - 美国（Meteor 5.1） 25
+      - 美国（Meteor 5.1） 26
+      - 美国（Meteor 5.1） 27
+      - 美国（Meteor 5.1） 28
+      - 美国（Meteor 5.1） 29
+      - 美国（Meteor 5.1） 30
+      - 美国（Meteor 5.1） 31
+      - 美国（Meteor 5.1） 32
+      - 美国（Meteor 5.1） 33
+      - 美国（Meteor 5.1） 34
+      - 美国（Meteor 5.1） 35
+      - 美国（Meteor 5.1） 36
+      - 美国（Meteor 5.1） 37
+      - 美国（Meteor 5.1） 38
+      - 台湾（Meteor 5.1）
+      - 台湾（Meteor 5.1） 2
+      - 台湾（Meteor 5.1） 3
+      - 台湾（Meteor 5.1） 4
+      - 台湾（Meteor 5.1） 5
+      - 新加坡（Meteor 5.1）
+      - 新加坡（Meteor 5.1） 2
+      - 新加坡（Meteor 5.1） 3
+      - 新加坡（Meteor 5.1） 4
+      - 新加坡（Meteor 5.1） 5
+      - 俄罗斯（Meteor 5.1）
+      - 俄罗斯（Meteor 5.1） 2
+      - 荷兰（Meteor 5.1）
+      - 韩国（Meteor 5.1）
+      - 韩国（Meteor 5.1） 2
+      - 韩国（Meteor 5.1） 3
+      - 日本（Meteor 5.1）
+      - 日本（Meteor 5.1） 2
+      - 日本（Meteor 5.1） 3
+      - 日本（Meteor 5.1） 4
+      - 日本（Meteor 5.1） 5
+      - 日本（Meteor 5.1） 6
+      - 日本（Meteor 5.1） 7
+      - 日本（Meteor 5.1） 8
+      - 日本（Meteor 5.1） 9
+      - 日本（Meteor 5.1） 10
+      - 日本（Meteor 5.1） 11
+      - 日本（Meteor 5.1） 12
+      - 印度（Meteor 5.1）
+      - 印度（Meteor 5.1） 2
+      - 香港（Meteor 5.1）
+      - 香港（Meteor 5.1） 2
+      - 香港（Meteor 5.1） 3
+      - 香港（Meteor 5.1） 4
+      - 香港（Meteor 5.1） 5
+      - 香港（Meteor 5.1） 6
+      - 香港（Meteor 5.1） 7
+      - 香港（Meteor 5.1） 8
+      - 香港（Meteor 5.1） 9
+      - 香港（Meteor 5.1） 10
+      - 香港（Meteor 5.1） 11
+      - 香港（Meteor 5.1） 12
+      - 英国（Meteor 5.1）
+      - 英国（Meteor 5.1） 2
+      - 英国（Meteor 5.1） 3
+      - 英国（Meteor 5.1） 4
+      - 加拿大（Meteor 5.1）
+      - 加拿大（Meteor 5.1） 2
+      - 加拿大（Meteor 5.1） 3
+      - 加拿大（Meteor 5.1） 4
+      - 加拿大（Meteor 5.1） 5
+      - 澳大利亚（Meteor 5.1）
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -285,97 +285,97 @@ proxy-groups:
       - HK.广州香港-1.移动.300M.NF
       - DE.广州德国-1.移动.300M
       - 173.82.186.25:60001
-      - 柬埔寨（Meteor）
-      - 美国（Meteor）
-      - 美国（Meteor） 2
-      - 美国（Meteor） 3
-      - 美国（Meteor） 4
-      - 美国（Meteor） 5
-      - 美国（Meteor） 6
-      - 美国（Meteor） 7
-      - 美国（Meteor） 8
-      - 美国（Meteor） 9
-      - 美国（Meteor） 10
-      - 美国（Meteor） 11
-      - 美国（Meteor） 12
-      - 美国（Meteor） 13
-      - 美国（Meteor） 14
-      - 美国（Meteor） 15
-      - 美国（Meteor） 16
-      - 美国（Meteor） 17
-      - 美国（Meteor） 18
-      - 美国（Meteor） 19
-      - 美国（Meteor） 20
-      - 美国（Meteor） 21
-      - 美国（Meteor） 22
-      - 美国（Meteor） 23
-      - 美国（Meteor） 24
-      - 美国（Meteor） 25
-      - 美国（Meteor） 26
-      - 美国（Meteor） 27
-      - 美国（Meteor） 28
-      - 美国（Meteor） 29
-      - 美国（Meteor） 30
-      - 美国（Meteor） 31
-      - 美国（Meteor） 32
-      - 美国（Meteor） 33
-      - 美国（Meteor） 34
-      - 美国（Meteor） 35
-      - 美国（Meteor） 36
-      - 美国（Meteor） 37
-      - 美国（Meteor） 38
-      - 台湾（Meteor）
-      - 台湾（Meteor） 2
-      - 台湾（Meteor） 3
-      - 台湾（Meteor） 4
-      - 台湾（Meteor） 5
-      - 新加坡（Meteor）
-      - 新加坡（Meteor） 2
-      - 新加坡（Meteor） 3
-      - 新加坡（Meteor） 4
-      - 新加坡（Meteor） 5
-      - 俄罗斯（Meteor）
-      - 俄罗斯（Meteor） 2
-      - 荷兰（Meteor）
-      - 韩国（Meteor）
-      - 韩国（Meteor） 2
-      - 韩国（Meteor） 3
-      - 日本（Meteor）
-      - 日本（Meteor） 2
-      - 日本（Meteor） 3
-      - 日本（Meteor） 4
-      - 日本（Meteor） 5
-      - 日本（Meteor） 6
-      - 日本（Meteor） 7
-      - 日本（Meteor） 8
-      - 日本（Meteor） 9
-      - 日本（Meteor） 10
-      - 日本（Meteor） 11
-      - 日本（Meteor） 12
-      - 印度（Meteor）
-      - 印度（Meteor） 2
-      - 香港（Meteor）
-      - 香港（Meteor） 2
-      - 香港（Meteor） 3
-      - 香港（Meteor） 4
-      - 香港（Meteor） 5
-      - 香港（Meteor） 6
-      - 香港（Meteor） 7
-      - 香港（Meteor） 8
-      - 香港（Meteor） 9
-      - 香港（Meteor） 10
-      - 香港（Meteor） 11
-      - 香港（Meteor） 12
-      - 英国（Meteor）
-      - 英国（Meteor） 2
-      - 英国（Meteor） 3
-      - 英国（Meteor） 4
-      - 加拿大（Meteor）
-      - 加拿大（Meteor） 2
-      - 加拿大（Meteor） 3
-      - 加拿大（Meteor） 4
-      - 加拿大（Meteor） 5
-      - 澳大利亚（Meteor）
+      - 柬埔寨（Meteor 5.1）
+      - 美国（Meteor 5.1）
+      - 美国（Meteor 5.1） 2
+      - 美国（Meteor 5.1） 3
+      - 美国（Meteor 5.1） 4
+      - 美国（Meteor 5.1） 5
+      - 美国（Meteor 5.1） 6
+      - 美国（Meteor 5.1） 7
+      - 美国（Meteor 5.1） 8
+      - 美国（Meteor 5.1） 9
+      - 美国（Meteor 5.1） 10
+      - 美国（Meteor 5.1） 11
+      - 美国（Meteor 5.1） 12
+      - 美国（Meteor 5.1） 13
+      - 美国（Meteor 5.1） 14
+      - 美国（Meteor 5.1） 15
+      - 美国（Meteor 5.1） 16
+      - 美国（Meteor 5.1） 17
+      - 美国（Meteor 5.1） 18
+      - 美国（Meteor 5.1） 19
+      - 美国（Meteor 5.1） 20
+      - 美国（Meteor 5.1） 21
+      - 美国（Meteor 5.1） 22
+      - 美国（Meteor 5.1） 23
+      - 美国（Meteor 5.1） 24
+      - 美国（Meteor 5.1） 25
+      - 美国（Meteor 5.1） 26
+      - 美国（Meteor 5.1） 27
+      - 美国（Meteor 5.1） 28
+      - 美国（Meteor 5.1） 29
+      - 美国（Meteor 5.1） 30
+      - 美国（Meteor 5.1） 31
+      - 美国（Meteor 5.1） 32
+      - 美国（Meteor 5.1） 33
+      - 美国（Meteor 5.1） 34
+      - 美国（Meteor 5.1） 35
+      - 美国（Meteor 5.1） 36
+      - 美国（Meteor 5.1） 37
+      - 美国（Meteor 5.1） 38
+      - 台湾（Meteor 5.1）
+      - 台湾（Meteor 5.1） 2
+      - 台湾（Meteor 5.1） 3
+      - 台湾（Meteor 5.1） 4
+      - 台湾（Meteor 5.1） 5
+      - 新加坡（Meteor 5.1）
+      - 新加坡（Meteor 5.1） 2
+      - 新加坡（Meteor 5.1） 3
+      - 新加坡（Meteor 5.1） 4
+      - 新加坡（Meteor 5.1） 5
+      - 俄罗斯（Meteor 5.1）
+      - 俄罗斯（Meteor 5.1） 2
+      - 荷兰（Meteor 5.1）
+      - 韩国（Meteor 5.1）
+      - 韩国（Meteor 5.1） 2
+      - 韩国（Meteor 5.1） 3
+      - 日本（Meteor 5.1）
+      - 日本（Meteor 5.1） 2
+      - 日本（Meteor 5.1） 3
+      - 日本（Meteor 5.1） 4
+      - 日本（Meteor 5.1） 5
+      - 日本（Meteor 5.1） 6
+      - 日本（Meteor 5.1） 7
+      - 日本（Meteor 5.1） 8
+      - 日本（Meteor 5.1） 9
+      - 日本（Meteor 5.1） 10
+      - 日本（Meteor 5.1） 11
+      - 日本（Meteor 5.1） 12
+      - 印度（Meteor 5.1）
+      - 印度（Meteor 5.1） 2
+      - 香港（Meteor 5.1）
+      - 香港（Meteor 5.1） 2
+      - 香港（Meteor 5.1） 3
+      - 香港（Meteor 5.1） 4
+      - 香港（Meteor 5.1） 5
+      - 香港（Meteor 5.1） 6
+      - 香港（Meteor 5.1） 7
+      - 香港（Meteor 5.1） 8
+      - 香港（Meteor 5.1） 9
+      - 香港（Meteor 5.1） 10
+      - 香港（Meteor 5.1） 11
+      - 香港（Meteor 5.1） 12
+      - 英国（Meteor 5.1）
+      - 英国（Meteor 5.1） 2
+      - 英国（Meteor 5.1） 3
+      - 英国（Meteor 5.1） 4
+      - 加拿大（Meteor 5.1）
+      - 加拿大（Meteor 5.1） 2
+      - 加拿大（Meteor 5.1） 3
+      - 加拿大（Meteor 5.1） 4
+      - 加拿大（Meteor 5.1） 5
+      - 澳大利亚（Meteor 5.1）
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -411,97 +411,97 @@ proxy-groups:
       - HK.广州香港-1.移动.300M.NF
       - DE.广州德国-1.移动.300M
       - 173.82.186.25:60001
-      - 柬埔寨（Meteor）
-      - 美国（Meteor）
-      - 美国（Meteor） 2
-      - 美国（Meteor） 3
-      - 美国（Meteor） 4
-      - 美国（Meteor） 5
-      - 美国（Meteor） 6
-      - 美国（Meteor） 7
-      - 美国（Meteor） 8
-      - 美国（Meteor） 9
-      - 美国（Meteor） 10
-      - 美国（Meteor） 11
-      - 美国（Meteor） 12
-      - 美国（Meteor） 13
-      - 美国（Meteor） 14
-      - 美国（Meteor） 15
-      - 美国（Meteor） 16
-      - 美国（Meteor） 17
-      - 美国（Meteor） 18
-      - 美国（Meteor） 19
-      - 美国（Meteor） 20
-      - 美国（Meteor） 21
-      - 美国（Meteor） 22
-      - 美国（Meteor） 23
-      - 美国（Meteor） 24
-      - 美国（Meteor） 25
-      - 美国（Meteor） 26
-      - 美国（Meteor） 27
-      - 美国（Meteor） 28
-      - 美国（Meteor） 29
-      - 美国（Meteor） 30
-      - 美国（Meteor） 31
-      - 美国（Meteor） 32
-      - 美国（Meteor） 33
-      - 美国（Meteor） 34
-      - 美国（Meteor） 35
-      - 美国（Meteor） 36
-      - 美国（Meteor） 37
-      - 美国（Meteor） 38
-      - 台湾（Meteor）
-      - 台湾（Meteor） 2
-      - 台湾（Meteor） 3
-      - 台湾（Meteor） 4
-      - 台湾（Meteor） 5
-      - 新加坡（Meteor）
-      - 新加坡（Meteor） 2
-      - 新加坡（Meteor） 3
-      - 新加坡（Meteor） 4
-      - 新加坡（Meteor） 5
-      - 俄罗斯（Meteor）
-      - 俄罗斯（Meteor） 2
-      - 荷兰（Meteor）
-      - 韩国（Meteor）
-      - 韩国（Meteor） 2
-      - 韩国（Meteor） 3
-      - 日本（Meteor）
-      - 日本（Meteor） 2
-      - 日本（Meteor） 3
-      - 日本（Meteor） 4
-      - 日本（Meteor） 5
-      - 日本（Meteor） 6
-      - 日本（Meteor） 7
-      - 日本（Meteor） 8
-      - 日本（Meteor） 9
-      - 日本（Meteor） 10
-      - 日本（Meteor） 11
-      - 日本（Meteor） 12
-      - 印度（Meteor）
-      - 印度（Meteor） 2
-      - 香港（Meteor）
-      - 香港（Meteor） 2
-      - 香港（Meteor） 3
-      - 香港（Meteor） 4
-      - 香港（Meteor） 5
-      - 香港（Meteor） 6
-      - 香港（Meteor） 7
-      - 香港（Meteor） 8
-      - 香港（Meteor） 9
-      - 香港（Meteor） 10
-      - 香港（Meteor） 11
-      - 香港（Meteor） 12
-      - 英国（Meteor）
-      - 英国（Meteor） 2
-      - 英国（Meteor） 3
-      - 英国（Meteor） 4
-      - 加拿大（Meteor）
-      - 加拿大（Meteor） 2
-      - 加拿大（Meteor） 3
-      - 加拿大（Meteor） 4
-      - 加拿大（Meteor） 5
-      - 澳大利亚（Meteor）
+      - 柬埔寨（Meteor 5.1）
+      - 美国（Meteor 5.1）
+      - 美国（Meteor 5.1） 2
+      - 美国（Meteor 5.1） 3
+      - 美国（Meteor 5.1） 4
+      - 美国（Meteor 5.1） 5
+      - 美国（Meteor 5.1） 6
+      - 美国（Meteor 5.1） 7
+      - 美国（Meteor 5.1） 8
+      - 美国（Meteor 5.1） 9
+      - 美国（Meteor 5.1） 10
+      - 美国（Meteor 5.1） 11
+      - 美国（Meteor 5.1） 12
+      - 美国（Meteor 5.1） 13
+      - 美国（Meteor 5.1） 14
+      - 美国（Meteor 5.1） 15
+      - 美国（Meteor 5.1） 16
+      - 美国（Meteor 5.1） 17
+      - 美国（Meteor 5.1） 18
+      - 美国（Meteor 5.1） 19
+      - 美国（Meteor 5.1） 20
+      - 美国（Meteor 5.1） 21
+      - 美国（Meteor 5.1） 22
+      - 美国（Meteor 5.1） 23
+      - 美国（Meteor 5.1） 24
+      - 美国（Meteor 5.1） 25
+      - 美国（Meteor 5.1） 26
+      - 美国（Meteor 5.1） 27
+      - 美国（Meteor 5.1） 28
+      - 美国（Meteor 5.1） 29
+      - 美国（Meteor 5.1） 30
+      - 美国（Meteor 5.1） 31
+      - 美国（Meteor 5.1） 32
+      - 美国（Meteor 5.1） 33
+      - 美国（Meteor 5.1） 34
+      - 美国（Meteor 5.1） 35
+      - 美国（Meteor 5.1） 36
+      - 美国（Meteor 5.1） 37
+      - 美国（Meteor 5.1） 38
+      - 台湾（Meteor 5.1）
+      - 台湾（Meteor 5.1） 2
+      - 台湾（Meteor 5.1） 3
+      - 台湾（Meteor 5.1） 4
+      - 台湾（Meteor 5.1） 5
+      - 新加坡（Meteor 5.1）
+      - 新加坡（Meteor 5.1） 2
+      - 新加坡（Meteor 5.1） 3
+      - 新加坡（Meteor 5.1） 4
+      - 新加坡（Meteor 5.1） 5
+      - 俄罗斯（Meteor 5.1）
+      - 俄罗斯（Meteor 5.1） 2
+      - 荷兰（Meteor 5.1）
+      - 韩国（Meteor 5.1）
+      - 韩国（Meteor 5.1） 2
+      - 韩国（Meteor 5.1） 3
+      - 日本（Meteor 5.1）
+      - 日本（Meteor 5.1） 2
+      - 日本（Meteor 5.1） 3
+      - 日本（Meteor 5.1） 4
+      - 日本（Meteor 5.1） 5
+      - 日本（Meteor 5.1） 6
+      - 日本（Meteor 5.1） 7
+      - 日本（Meteor 5.1） 8
+      - 日本（Meteor 5.1） 9
+      - 日本（Meteor 5.1） 10
+      - 日本（Meteor 5.1） 11
+      - 日本（Meteor 5.1） 12
+      - 印度（Meteor 5.1）
+      - 印度（Meteor 5.1） 2
+      - 香港（Meteor 5.1）
+      - 香港（Meteor 5.1） 2
+      - 香港（Meteor 5.1） 3
+      - 香港（Meteor 5.1） 4
+      - 香港（Meteor 5.1） 5
+      - 香港（Meteor 5.1） 6
+      - 香港（Meteor 5.1） 7
+      - 香港（Meteor 5.1） 8
+      - 香港（Meteor 5.1） 9
+      - 香港（Meteor 5.1） 10
+      - 香港（Meteor 5.1） 11
+      - 香港（Meteor 5.1） 12
+      - 英国（Meteor 5.1）
+      - 英国（Meteor 5.1） 2
+      - 英国（Meteor 5.1） 3
+      - 英国（Meteor 5.1） 4
+      - 加拿大（Meteor 5.1）
+      - 加拿大（Meteor 5.1） 2
+      - 加拿大（Meteor 5.1） 3
+      - 加拿大（Meteor 5.1） 4
+      - 加拿大（Meteor 5.1） 5
+      - 澳大利亚（Meteor 5.1）
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -549,97 +549,97 @@ proxy-groups:
       - HK.广州香港-1.移动.300M.NF
       - DE.广州德国-1.移动.300M
       - 173.82.186.25:60001
-      - 柬埔寨（Meteor）
-      - 美国（Meteor）
-      - 美国（Meteor） 2
-      - 美国（Meteor） 3
-      - 美国（Meteor） 4
-      - 美国（Meteor） 5
-      - 美国（Meteor） 6
-      - 美国（Meteor） 7
-      - 美国（Meteor） 8
-      - 美国（Meteor） 9
-      - 美国（Meteor） 10
-      - 美国（Meteor） 11
-      - 美国（Meteor） 12
-      - 美国（Meteor） 13
-      - 美国（Meteor） 14
-      - 美国（Meteor） 15
-      - 美国（Meteor） 16
-      - 美国（Meteor） 17
-      - 美国（Meteor） 18
-      - 美国（Meteor） 19
-      - 美国（Meteor） 20
-      - 美国（Meteor） 21
-      - 美国（Meteor） 22
-      - 美国（Meteor） 23
-      - 美国（Meteor） 24
-      - 美国（Meteor） 25
-      - 美国（Meteor） 26
-      - 美国（Meteor） 27
-      - 美国（Meteor） 28
-      - 美国（Meteor） 29
-      - 美国（Meteor） 30
-      - 美国（Meteor） 31
-      - 美国（Meteor） 32
-      - 美国（Meteor） 33
-      - 美国（Meteor） 34
-      - 美国（Meteor） 35
-      - 美国（Meteor） 36
-      - 美国（Meteor） 37
-      - 美国（Meteor） 38
-      - 台湾（Meteor）
-      - 台湾（Meteor） 2
-      - 台湾（Meteor） 3
-      - 台湾（Meteor） 4
-      - 台湾（Meteor） 5
-      - 新加坡（Meteor）
-      - 新加坡（Meteor） 2
-      - 新加坡（Meteor） 3
-      - 新加坡（Meteor） 4
-      - 新加坡（Meteor） 5
-      - 俄罗斯（Meteor）
-      - 俄罗斯（Meteor） 2
-      - 荷兰（Meteor）
-      - 韩国（Meteor）
-      - 韩国（Meteor） 2
-      - 韩国（Meteor） 3
-      - 日本（Meteor）
-      - 日本（Meteor） 2
-      - 日本（Meteor） 3
-      - 日本（Meteor） 4
-      - 日本（Meteor） 5
-      - 日本（Meteor） 6
-      - 日本（Meteor） 7
-      - 日本（Meteor） 8
-      - 日本（Meteor） 9
-      - 日本（Meteor） 10
-      - 日本（Meteor） 11
-      - 日本（Meteor） 12
-      - 印度（Meteor）
-      - 印度（Meteor） 2
-      - 香港（Meteor）
-      - 香港（Meteor） 2
-      - 香港（Meteor） 3
-      - 香港（Meteor） 4
-      - 香港（Meteor） 5
-      - 香港（Meteor） 6
-      - 香港（Meteor） 7
-      - 香港（Meteor） 8
-      - 香港（Meteor） 9
-      - 香港（Meteor） 10
-      - 香港（Meteor） 11
-      - 香港（Meteor） 12
-      - 英国（Meteor）
-      - 英国（Meteor） 2
-      - 英国（Meteor） 3
-      - 英国（Meteor） 4
-      - 加拿大（Meteor）
-      - 加拿大（Meteor） 2
-      - 加拿大（Meteor） 3
-      - 加拿大（Meteor） 4
-      - 加拿大（Meteor） 5
-      - 澳大利亚（Meteor）
+      - 柬埔寨（Meteor 5.1）
+      - 美国（Meteor 5.1）
+      - 美国（Meteor 5.1） 2
+      - 美国（Meteor 5.1） 3
+      - 美国（Meteor 5.1） 4
+      - 美国（Meteor 5.1） 5
+      - 美国（Meteor 5.1） 6
+      - 美国（Meteor 5.1） 7
+      - 美国（Meteor 5.1） 8
+      - 美国（Meteor 5.1） 9
+      - 美国（Meteor 5.1） 10
+      - 美国（Meteor 5.1） 11
+      - 美国（Meteor 5.1） 12
+      - 美国（Meteor 5.1） 13
+      - 美国（Meteor 5.1） 14
+      - 美国（Meteor 5.1） 15
+      - 美国（Meteor 5.1） 16
+      - 美国（Meteor 5.1） 17
+      - 美国（Meteor 5.1） 18
+      - 美国（Meteor 5.1） 19
+      - 美国（Meteor 5.1） 20
+      - 美国（Meteor 5.1） 21
+      - 美国（Meteor 5.1） 22
+      - 美国（Meteor 5.1） 23
+      - 美国（Meteor 5.1） 24
+      - 美国（Meteor 5.1） 25
+      - 美国（Meteor 5.1） 26
+      - 美国（Meteor 5.1） 27
+      - 美国（Meteor 5.1） 28
+      - 美国（Meteor 5.1） 29
+      - 美国（Meteor 5.1） 30
+      - 美国（Meteor 5.1） 31
+      - 美国（Meteor 5.1） 32
+      - 美国（Meteor 5.1） 33
+      - 美国（Meteor 5.1） 34
+      - 美国（Meteor 5.1） 35
+      - 美国（Meteor 5.1） 36
+      - 美国（Meteor 5.1） 37
+      - 美国（Meteor 5.1） 38
+      - 台湾（Meteor 5.1）
+      - 台湾（Meteor 5.1） 2
+      - 台湾（Meteor 5.1） 3
+      - 台湾（Meteor 5.1） 4
+      - 台湾（Meteor 5.1） 5
+      - 新加坡（Meteor 5.1）
+      - 新加坡（Meteor 5.1） 2
+      - 新加坡（Meteor 5.1） 3
+      - 新加坡（Meteor 5.1） 4
+      - 新加坡（Meteor 5.1） 5
+      - 俄罗斯（Meteor 5.1）
+      - 俄罗斯（Meteor 5.1） 2
+      - 荷兰（Meteor 5.1）
+      - 韩国（Meteor 5.1）
+      - 韩国（Meteor 5.1） 2
+      - 韩国（Meteor 5.1） 3
+      - 日本（Meteor 5.1）
+      - 日本（Meteor 5.1） 2
+      - 日本（Meteor 5.1） 3
+      - 日本（Meteor 5.1） 4
+      - 日本（Meteor 5.1） 5
+      - 日本（Meteor 5.1） 6
+      - 日本（Meteor 5.1） 7
+      - 日本（Meteor 5.1） 8
+      - 日本（Meteor 5.1） 9
+      - 日本（Meteor 5.1） 10
+      - 日本（Meteor 5.1） 11
+      - 日本（Meteor 5.1） 12
+      - 印度（Meteor 5.1）
+      - 印度（Meteor 5.1） 2
+      - 香港（Meteor 5.1）
+      - 香港（Meteor 5.1） 2
+      - 香港（Meteor 5.1） 3
+      - 香港（Meteor 5.1） 4
+      - 香港（Meteor 5.1） 5
+      - 香港（Meteor 5.1） 6
+      - 香港（Meteor 5.1） 7
+      - 香港（Meteor 5.1） 8
+      - 香港（Meteor 5.1） 9
+      - 香港（Meteor 5.1） 10
+      - 香港（Meteor 5.1） 11
+      - 香港（Meteor 5.1） 12
+      - 英国（Meteor 5.1）
+      - 英国（Meteor 5.1） 2
+      - 英国（Meteor 5.1） 3
+      - 英国（Meteor 5.1） 4
+      - 加拿大（Meteor 5.1）
+      - 加拿大（Meteor 5.1） 2
+      - 加拿大（Meteor 5.1） 3
+      - 加拿大（Meteor 5.1） 4
+      - 加拿大（Meteor 5.1） 5
+      - 澳大利亚（Meteor 5.1）
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -647,23 +647,23 @@ proxy-groups:
       - 香港2 奈飞
       - TW.广州台湾-3.移动.200M.NF
       - HK.广州香港-1.移动.300M.NF
-      - 台湾（Meteor）
-      - 台湾（Meteor） 2
-      - 台湾（Meteor） 3
-      - 台湾（Meteor） 4
-      - 台湾（Meteor） 5
-      - 香港（Meteor）
-      - 香港（Meteor） 2
-      - 香港（Meteor） 3
-      - 香港（Meteor） 4
-      - 香港（Meteor） 5
-      - 香港（Meteor） 6
-      - 香港（Meteor） 7
-      - 香港（Meteor） 8
-      - 香港（Meteor） 9
-      - 香港（Meteor） 10
-      - 香港（Meteor） 11
-      - 香港（Meteor） 12
+      - 台湾（Meteor 5.1）
+      - 台湾（Meteor 5.1） 2
+      - 台湾（Meteor 5.1） 3
+      - 台湾（Meteor 5.1） 4
+      - 台湾（Meteor 5.1） 5
+      - 香港（Meteor 5.1）
+      - 香港（Meteor 5.1） 2
+      - 香港（Meteor 5.1） 3
+      - 香港（Meteor 5.1） 4
+      - 香港（Meteor 5.1） 5
+      - 香港（Meteor 5.1） 6
+      - 香港（Meteor 5.1） 7
+      - 香港（Meteor 5.1） 8
+      - 香港（Meteor 5.1） 9
+      - 香港（Meteor 5.1） 10
+      - 香港（Meteor 5.1） 11
+      - 香港（Meteor 5.1） 12
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -699,97 +699,97 @@ proxy-groups:
       - HK.广州香港-1.移动.300M.NF
       - DE.广州德国-1.移动.300M
       - 173.82.186.25:60001
-      - 柬埔寨（Meteor）
-      - 美国（Meteor）
-      - 美国（Meteor） 2
-      - 美国（Meteor） 3
-      - 美国（Meteor） 4
-      - 美国（Meteor） 5
-      - 美国（Meteor） 6
-      - 美国（Meteor） 7
-      - 美国（Meteor） 8
-      - 美国（Meteor） 9
-      - 美国（Meteor） 10
-      - 美国（Meteor） 11
-      - 美国（Meteor） 12
-      - 美国（Meteor） 13
-      - 美国（Meteor） 14
-      - 美国（Meteor） 15
-      - 美国（Meteor） 16
-      - 美国（Meteor） 17
-      - 美国（Meteor） 18
-      - 美国（Meteor） 19
-      - 美国（Meteor） 20
-      - 美国（Meteor） 21
-      - 美国（Meteor） 22
-      - 美国（Meteor） 23
-      - 美国（Meteor） 24
-      - 美国（Meteor） 25
-      - 美国（Meteor） 26
-      - 美国（Meteor） 27
-      - 美国（Meteor） 28
-      - 美国（Meteor） 29
-      - 美国（Meteor） 30
-      - 美国（Meteor） 31
-      - 美国（Meteor） 32
-      - 美国（Meteor） 33
-      - 美国（Meteor） 34
-      - 美国（Meteor） 35
-      - 美国（Meteor） 36
-      - 美国（Meteor） 37
-      - 美国（Meteor） 38
-      - 台湾（Meteor）
-      - 台湾（Meteor） 2
-      - 台湾（Meteor） 3
-      - 台湾（Meteor） 4
-      - 台湾（Meteor） 5
-      - 新加坡（Meteor）
-      - 新加坡（Meteor） 2
-      - 新加坡（Meteor） 3
-      - 新加坡（Meteor） 4
-      - 新加坡（Meteor） 5
-      - 俄罗斯（Meteor）
-      - 俄罗斯（Meteor） 2
-      - 荷兰（Meteor）
-      - 韩国（Meteor）
-      - 韩国（Meteor） 2
-      - 韩国（Meteor） 3
-      - 日本（Meteor）
-      - 日本（Meteor） 2
-      - 日本（Meteor） 3
-      - 日本（Meteor） 4
-      - 日本（Meteor） 5
-      - 日本（Meteor） 6
-      - 日本（Meteor） 7
-      - 日本（Meteor） 8
-      - 日本（Meteor） 9
-      - 日本（Meteor） 10
-      - 日本（Meteor） 11
-      - 日本（Meteor） 12
-      - 印度（Meteor）
-      - 印度（Meteor） 2
-      - 香港（Meteor）
-      - 香港（Meteor） 2
-      - 香港（Meteor） 3
-      - 香港（Meteor） 4
-      - 香港（Meteor） 5
-      - 香港（Meteor） 6
-      - 香港（Meteor） 7
-      - 香港（Meteor） 8
-      - 香港（Meteor） 9
-      - 香港（Meteor） 10
-      - 香港（Meteor） 11
-      - 香港（Meteor） 12
-      - 英国（Meteor）
-      - 英国（Meteor） 2
-      - 英国（Meteor） 3
-      - 英国（Meteor） 4
-      - 加拿大（Meteor）
-      - 加拿大（Meteor） 2
-      - 加拿大（Meteor） 3
-      - 加拿大（Meteor） 4
-      - 加拿大（Meteor） 5
-      - 澳大利亚（Meteor）
+      - 柬埔寨（Meteor 5.1）
+      - 美国（Meteor 5.1）
+      - 美国（Meteor 5.1） 2
+      - 美国（Meteor 5.1） 3
+      - 美国（Meteor 5.1） 4
+      - 美国（Meteor 5.1） 5
+      - 美国（Meteor 5.1） 6
+      - 美国（Meteor 5.1） 7
+      - 美国（Meteor 5.1） 8
+      - 美国（Meteor 5.1） 9
+      - 美国（Meteor 5.1） 10
+      - 美国（Meteor 5.1） 11
+      - 美国（Meteor 5.1） 12
+      - 美国（Meteor 5.1） 13
+      - 美国（Meteor 5.1） 14
+      - 美国（Meteor 5.1） 15
+      - 美国（Meteor 5.1） 16
+      - 美国（Meteor 5.1） 17
+      - 美国（Meteor 5.1） 18
+      - 美国（Meteor 5.1） 19
+      - 美国（Meteor 5.1） 20
+      - 美国（Meteor 5.1） 21
+      - 美国（Meteor 5.1） 22
+      - 美国（Meteor 5.1） 23
+      - 美国（Meteor 5.1） 24
+      - 美国（Meteor 5.1） 25
+      - 美国（Meteor 5.1） 26
+      - 美国（Meteor 5.1） 27
+      - 美国（Meteor 5.1） 28
+      - 美国（Meteor 5.1） 29
+      - 美国（Meteor 5.1） 30
+      - 美国（Meteor 5.1） 31
+      - 美国（Meteor 5.1） 32
+      - 美国（Meteor 5.1） 33
+      - 美国（Meteor 5.1） 34
+      - 美国（Meteor 5.1） 35
+      - 美国（Meteor 5.1） 36
+      - 美国（Meteor 5.1） 37
+      - 美国（Meteor 5.1） 38
+      - 台湾（Meteor 5.1）
+      - 台湾（Meteor 5.1） 2
+      - 台湾（Meteor 5.1） 3
+      - 台湾（Meteor 5.1） 4
+      - 台湾（Meteor 5.1） 5
+      - 新加坡（Meteor 5.1）
+      - 新加坡（Meteor 5.1） 2
+      - 新加坡（Meteor 5.1） 3
+      - 新加坡（Meteor 5.1） 4
+      - 新加坡（Meteor 5.1） 5
+      - 俄罗斯（Meteor 5.1）
+      - 俄罗斯（Meteor 5.1） 2
+      - 荷兰（Meteor 5.1）
+      - 韩国（Meteor 5.1）
+      - 韩国（Meteor 5.1） 2
+      - 韩国（Meteor 5.1） 3
+      - 日本（Meteor 5.1）
+      - 日本（Meteor 5.1） 2
+      - 日本（Meteor 5.1） 3
+      - 日本（Meteor 5.1） 4
+      - 日本（Meteor 5.1） 5
+      - 日本（Meteor 5.1） 6
+      - 日本（Meteor 5.1） 7
+      - 日本（Meteor 5.1） 8
+      - 日本（Meteor 5.1） 9
+      - 日本（Meteor 5.1） 10
+      - 日本（Meteor 5.1） 11
+      - 日本（Meteor 5.1） 12
+      - 印度（Meteor 5.1）
+      - 印度（Meteor 5.1） 2
+      - 香港（Meteor 5.1）
+      - 香港（Meteor 5.1） 2
+      - 香港（Meteor 5.1） 3
+      - 香港（Meteor 5.1） 4
+      - 香港（Meteor 5.1） 5
+      - 香港（Meteor 5.1） 6
+      - 香港（Meteor 5.1） 7
+      - 香港（Meteor 5.1） 8
+      - 香港（Meteor 5.1） 9
+      - 香港（Meteor 5.1） 10
+      - 香港（Meteor 5.1） 11
+      - 香港（Meteor 5.1） 12
+      - 英国（Meteor 5.1）
+      - 英国（Meteor 5.1） 2
+      - 英国（Meteor 5.1） 3
+      - 英国（Meteor 5.1） 4
+      - 加拿大（Meteor 5.1）
+      - 加拿大（Meteor 5.1） 2
+      - 加拿大（Meteor 5.1） 3
+      - 加拿大（Meteor 5.1） 4
+      - 加拿大（Meteor 5.1） 5
+      - 澳大利亚（Meteor 5.1）
   - name: 📲 电报信息
     type: select
     proxies:
@@ -824,97 +824,97 @@ proxy-groups:
       - HK.广州香港-1.移动.300M.NF
       - DE.广州德国-1.移动.300M
       - 173.82.186.25:60001
-      - 柬埔寨（Meteor）
-      - 美国（Meteor）
-      - 美国（Meteor） 2
-      - 美国（Meteor） 3
-      - 美国（Meteor） 4
-      - 美国（Meteor） 5
-      - 美国（Meteor） 6
-      - 美国（Meteor） 7
-      - 美国（Meteor） 8
-      - 美国（Meteor） 9
-      - 美国（Meteor） 10
-      - 美国（Meteor） 11
-      - 美国（Meteor） 12
-      - 美国（Meteor） 13
-      - 美国（Meteor） 14
-      - 美国（Meteor） 15
-      - 美国（Meteor） 16
-      - 美国（Meteor） 17
-      - 美国（Meteor） 18
-      - 美国（Meteor） 19
-      - 美国（Meteor） 20
-      - 美国（Meteor） 21
-      - 美国（Meteor） 22
-      - 美国（Meteor） 23
-      - 美国（Meteor） 24
-      - 美国（Meteor） 25
-      - 美国（Meteor） 26
-      - 美国（Meteor） 27
-      - 美国（Meteor） 28
-      - 美国（Meteor） 29
-      - 美国（Meteor） 30
-      - 美国（Meteor） 31
-      - 美国（Meteor） 32
-      - 美国（Meteor） 33
-      - 美国（Meteor） 34
-      - 美国（Meteor） 35
-      - 美国（Meteor） 36
-      - 美国（Meteor） 37
-      - 美国（Meteor） 38
-      - 台湾（Meteor）
-      - 台湾（Meteor） 2
-      - 台湾（Meteor） 3
-      - 台湾（Meteor） 4
-      - 台湾（Meteor） 5
-      - 新加坡（Meteor）
-      - 新加坡（Meteor） 2
-      - 新加坡（Meteor） 3
-      - 新加坡（Meteor） 4
-      - 新加坡（Meteor） 5
-      - 俄罗斯（Meteor）
-      - 俄罗斯（Meteor） 2
-      - 荷兰（Meteor）
-      - 韩国（Meteor）
-      - 韩国（Meteor） 2
-      - 韩国（Meteor） 3
-      - 日本（Meteor）
-      - 日本（Meteor） 2
-      - 日本（Meteor） 3
-      - 日本（Meteor） 4
-      - 日本（Meteor） 5
-      - 日本（Meteor） 6
-      - 日本（Meteor） 7
-      - 日本（Meteor） 8
-      - 日本（Meteor） 9
-      - 日本（Meteor） 10
-      - 日本（Meteor） 11
-      - 日本（Meteor） 12
-      - 印度（Meteor）
-      - 印度（Meteor） 2
-      - 香港（Meteor）
-      - 香港（Meteor） 2
-      - 香港（Meteor） 3
-      - 香港（Meteor） 4
-      - 香港（Meteor） 5
-      - 香港（Meteor） 6
-      - 香港（Meteor） 7
-      - 香港（Meteor） 8
-      - 香港（Meteor） 9
-      - 香港（Meteor） 10
-      - 香港（Meteor） 11
-      - 香港（Meteor） 12
-      - 英国（Meteor）
-      - 英国（Meteor） 2
-      - 英国（Meteor） 3
-      - 英国（Meteor） 4
-      - 加拿大（Meteor）
-      - 加拿大（Meteor） 2
-      - 加拿大（Meteor） 3
-      - 加拿大（Meteor） 4
-      - 加拿大（Meteor） 5
-      - 澳大利亚（Meteor）
+      - 柬埔寨（Meteor 5.1）
+      - 美国（Meteor 5.1）
+      - 美国（Meteor 5.1） 2
+      - 美国（Meteor 5.1） 3
+      - 美国（Meteor 5.1） 4
+      - 美国（Meteor 5.1） 5
+      - 美国（Meteor 5.1） 6
+      - 美国（Meteor 5.1） 7
+      - 美国（Meteor 5.1） 8
+      - 美国（Meteor 5.1） 9
+      - 美国（Meteor 5.1） 10
+      - 美国（Meteor 5.1） 11
+      - 美国（Meteor 5.1） 12
+      - 美国（Meteor 5.1） 13
+      - 美国（Meteor 5.1） 14
+      - 美国（Meteor 5.1） 15
+      - 美国（Meteor 5.1） 16
+      - 美国（Meteor 5.1） 17
+      - 美国（Meteor 5.1） 18
+      - 美国（Meteor 5.1） 19
+      - 美国（Meteor 5.1） 20
+      - 美国（Meteor 5.1） 21
+      - 美国（Meteor 5.1） 22
+      - 美国（Meteor 5.1） 23
+      - 美国（Meteor 5.1） 24
+      - 美国（Meteor 5.1） 25
+      - 美国（Meteor 5.1） 26
+      - 美国（Meteor 5.1） 27
+      - 美国（Meteor 5.1） 28
+      - 美国（Meteor 5.1） 29
+      - 美国（Meteor 5.1） 30
+      - 美国（Meteor 5.1） 31
+      - 美国（Meteor 5.1） 32
+      - 美国（Meteor 5.1） 33
+      - 美国（Meteor 5.1） 34
+      - 美国（Meteor 5.1） 35
+      - 美国（Meteor 5.1） 36
+      - 美国（Meteor 5.1） 37
+      - 美国（Meteor 5.1） 38
+      - 台湾（Meteor 5.1）
+      - 台湾（Meteor 5.1） 2
+      - 台湾（Meteor 5.1） 3
+      - 台湾（Meteor 5.1） 4
+      - 台湾（Meteor 5.1） 5
+      - 新加坡（Meteor 5.1）
+      - 新加坡（Meteor 5.1） 2
+      - 新加坡（Meteor 5.1） 3
+      - 新加坡（Meteor 5.1） 4
+      - 新加坡（Meteor 5.1） 5
+      - 俄罗斯（Meteor 5.1）
+      - 俄罗斯（Meteor 5.1） 2
+      - 荷兰（Meteor 5.1）
+      - 韩国（Meteor 5.1）
+      - 韩国（Meteor 5.1） 2
+      - 韩国（Meteor 5.1） 3
+      - 日本（Meteor 5.1）
+      - 日本（Meteor 5.1） 2
+      - 日本（Meteor 5.1） 3
+      - 日本（Meteor 5.1） 4
+      - 日本（Meteor 5.1） 5
+      - 日本（Meteor 5.1） 6
+      - 日本（Meteor 5.1） 7
+      - 日本（Meteor 5.1） 8
+      - 日本（Meteor 5.1） 9
+      - 日本（Meteor 5.1） 10
+      - 日本（Meteor 5.1） 11
+      - 日本（Meteor 5.1） 12
+      - 印度（Meteor 5.1）
+      - 印度（Meteor 5.1） 2
+      - 香港（Meteor 5.1）
+      - 香港（Meteor 5.1） 2
+      - 香港（Meteor 5.1） 3
+      - 香港（Meteor 5.1） 4
+      - 香港（Meteor 5.1） 5
+      - 香港（Meteor 5.1） 6
+      - 香港（Meteor 5.1） 7
+      - 香港（Meteor 5.1） 8
+      - 香港（Meteor 5.1） 9
+      - 香港（Meteor 5.1） 10
+      - 香港（Meteor 5.1） 11
+      - 香港（Meteor 5.1） 12
+      - 英国（Meteor 5.1）
+      - 英国（Meteor 5.1） 2
+      - 英国（Meteor 5.1） 3
+      - 英国（Meteor 5.1） 4
+      - 加拿大（Meteor 5.1）
+      - 加拿大（Meteor 5.1） 2
+      - 加拿大（Meteor 5.1） 3
+      - 加拿大（Meteor 5.1） 4
+      - 加拿大（Meteor 5.1） 5
+      - 澳大利亚（Meteor 5.1）
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -950,97 +950,97 @@ proxy-groups:
       - HK.广州香港-1.移动.300M.NF
       - DE.广州德国-1.移动.300M
       - 173.82.186.25:60001
-      - 柬埔寨（Meteor）
-      - 美国（Meteor）
-      - 美国（Meteor） 2
-      - 美国（Meteor） 3
-      - 美国（Meteor） 4
-      - 美国（Meteor） 5
-      - 美国（Meteor） 6
-      - 美国（Meteor） 7
-      - 美国（Meteor） 8
-      - 美国（Meteor） 9
-      - 美国（Meteor） 10
-      - 美国（Meteor） 11
-      - 美国（Meteor） 12
-      - 美国（Meteor） 13
-      - 美国（Meteor） 14
-      - 美国（Meteor） 15
-      - 美国（Meteor） 16
-      - 美国（Meteor） 17
-      - 美国（Meteor） 18
-      - 美国（Meteor） 19
-      - 美国（Meteor） 20
-      - 美国（Meteor） 21
-      - 美国（Meteor） 22
-      - 美国（Meteor） 23
-      - 美国（Meteor） 24
-      - 美国（Meteor） 25
-      - 美国（Meteor） 26
-      - 美国（Meteor） 27
-      - 美国（Meteor） 28
-      - 美国（Meteor） 29
-      - 美国（Meteor） 30
-      - 美国（Meteor） 31
-      - 美国（Meteor） 32
-      - 美国（Meteor） 33
-      - 美国（Meteor） 34
-      - 美国（Meteor） 35
-      - 美国（Meteor） 36
-      - 美国（Meteor） 37
-      - 美国（Meteor） 38
-      - 台湾（Meteor）
-      - 台湾（Meteor） 2
-      - 台湾（Meteor） 3
-      - 台湾（Meteor） 4
-      - 台湾（Meteor） 5
-      - 新加坡（Meteor）
-      - 新加坡（Meteor） 2
-      - 新加坡（Meteor） 3
-      - 新加坡（Meteor） 4
-      - 新加坡（Meteor） 5
-      - 俄罗斯（Meteor）
-      - 俄罗斯（Meteor） 2
-      - 荷兰（Meteor）
-      - 韩国（Meteor）
-      - 韩国（Meteor） 2
-      - 韩国（Meteor） 3
-      - 日本（Meteor）
-      - 日本（Meteor） 2
-      - 日本（Meteor） 3
-      - 日本（Meteor） 4
-      - 日本（Meteor） 5
-      - 日本（Meteor） 6
-      - 日本（Meteor） 7
-      - 日本（Meteor） 8
-      - 日本（Meteor） 9
-      - 日本（Meteor） 10
-      - 日本（Meteor） 11
-      - 日本（Meteor） 12
-      - 印度（Meteor）
-      - 印度（Meteor） 2
-      - 香港（Meteor）
-      - 香港（Meteor） 2
-      - 香港（Meteor） 3
-      - 香港（Meteor） 4
-      - 香港（Meteor） 5
-      - 香港（Meteor） 6
-      - 香港（Meteor） 7
-      - 香港（Meteor） 8
-      - 香港（Meteor） 9
-      - 香港（Meteor） 10
-      - 香港（Meteor） 11
-      - 香港（Meteor） 12
-      - 英国（Meteor）
-      - 英国（Meteor） 2
-      - 英国（Meteor） 3
-      - 英国（Meteor） 4
-      - 加拿大（Meteor）
-      - 加拿大（Meteor） 2
-      - 加拿大（Meteor） 3
-      - 加拿大（Meteor） 4
-      - 加拿大（Meteor） 5
-      - 澳大利亚（Meteor）
+      - 柬埔寨（Meteor 5.1）
+      - 美国（Meteor 5.1）
+      - 美国（Meteor 5.1） 2
+      - 美国（Meteor 5.1） 3
+      - 美国（Meteor 5.1） 4
+      - 美国（Meteor 5.1） 5
+      - 美国（Meteor 5.1） 6
+      - 美国（Meteor 5.1） 7
+      - 美国（Meteor 5.1） 8
+      - 美国（Meteor 5.1） 9
+      - 美国（Meteor 5.1） 10
+      - 美国（Meteor 5.1） 11
+      - 美国（Meteor 5.1） 12
+      - 美国（Meteor 5.1） 13
+      - 美国（Meteor 5.1） 14
+      - 美国（Meteor 5.1） 15
+      - 美国（Meteor 5.1） 16
+      - 美国（Meteor 5.1） 17
+      - 美国（Meteor 5.1） 18
+      - 美国（Meteor 5.1） 19
+      - 美国（Meteor 5.1） 20
+      - 美国（Meteor 5.1） 21
+      - 美国（Meteor 5.1） 22
+      - 美国（Meteor 5.1） 23
+      - 美国（Meteor 5.1） 24
+      - 美国（Meteor 5.1） 25
+      - 美国（Meteor 5.1） 26
+      - 美国（Meteor 5.1） 27
+      - 美国（Meteor 5.1） 28
+      - 美国（Meteor 5.1） 29
+      - 美国（Meteor 5.1） 30
+      - 美国（Meteor 5.1） 31
+      - 美国（Meteor 5.1） 32
+      - 美国（Meteor 5.1） 33
+      - 美国（Meteor 5.1） 34
+      - 美国（Meteor 5.1） 35
+      - 美国（Meteor 5.1） 36
+      - 美国（Meteor 5.1） 37
+      - 美国（Meteor 5.1） 38
+      - 台湾（Meteor 5.1）
+      - 台湾（Meteor 5.1） 2
+      - 台湾（Meteor 5.1） 3
+      - 台湾（Meteor 5.1） 4
+      - 台湾（Meteor 5.1） 5
+      - 新加坡（Meteor 5.1）
+      - 新加坡（Meteor 5.1） 2
+      - 新加坡（Meteor 5.1） 3
+      - 新加坡（Meteor 5.1） 4
+      - 新加坡（Meteor 5.1） 5
+      - 俄罗斯（Meteor 5.1）
+      - 俄罗斯（Meteor 5.1） 2
+      - 荷兰（Meteor 5.1）
+      - 韩国（Meteor 5.1）
+      - 韩国（Meteor 5.1） 2
+      - 韩国（Meteor 5.1） 3
+      - 日本（Meteor 5.1）
+      - 日本（Meteor 5.1） 2
+      - 日本（Meteor 5.1） 3
+      - 日本（Meteor 5.1） 4
+      - 日本（Meteor 5.1） 5
+      - 日本（Meteor 5.1） 6
+      - 日本（Meteor 5.1） 7
+      - 日本（Meteor 5.1） 8
+      - 日本（Meteor 5.1） 9
+      - 日本（Meteor 5.1） 10
+      - 日本（Meteor 5.1） 11
+      - 日本（Meteor 5.1） 12
+      - 印度（Meteor 5.1）
+      - 印度（Meteor 5.1） 2
+      - 香港（Meteor 5.1）
+      - 香港（Meteor 5.1） 2
+      - 香港（Meteor 5.1） 3
+      - 香港（Meteor 5.1） 4
+      - 香港（Meteor 5.1） 5
+      - 香港（Meteor 5.1） 6
+      - 香港（Meteor 5.1） 7
+      - 香港（Meteor 5.1） 8
+      - 香港（Meteor 5.1） 9
+      - 香港（Meteor 5.1） 10
+      - 香港（Meteor 5.1） 11
+      - 香港（Meteor 5.1） 12
+      - 英国（Meteor 5.1）
+      - 英国（Meteor 5.1） 2
+      - 英国（Meteor 5.1） 3
+      - 英国（Meteor 5.1） 4
+      - 加拿大（Meteor 5.1）
+      - 加拿大（Meteor 5.1） 2
+      - 加拿大（Meteor 5.1） 3
+      - 加拿大（Meteor 5.1） 4
+      - 加拿大（Meteor 5.1） 5
+      - 澳大利亚（Meteor 5.1）
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1085,97 +1085,97 @@ proxy-groups:
       - HK.广州香港-1.移动.300M.NF
       - DE.广州德国-1.移动.300M
       - 173.82.186.25:60001
-      - 柬埔寨（Meteor）
-      - 美国（Meteor）
-      - 美国（Meteor） 2
-      - 美国（Meteor） 3
-      - 美国（Meteor） 4
-      - 美国（Meteor） 5
-      - 美国（Meteor） 6
-      - 美国（Meteor） 7
-      - 美国（Meteor） 8
-      - 美国（Meteor） 9
-      - 美国（Meteor） 10
-      - 美国（Meteor） 11
-      - 美国（Meteor） 12
-      - 美国（Meteor） 13
-      - 美国（Meteor） 14
-      - 美国（Meteor） 15
-      - 美国（Meteor） 16
-      - 美国（Meteor） 17
-      - 美国（Meteor） 18
-      - 美国（Meteor） 19
-      - 美国（Meteor） 20
-      - 美国（Meteor） 21
-      - 美国（Meteor） 22
-      - 美国（Meteor） 23
-      - 美国（Meteor） 24
-      - 美国（Meteor） 25
-      - 美国（Meteor） 26
-      - 美国（Meteor） 27
-      - 美国（Meteor） 28
-      - 美国（Meteor） 29
-      - 美国（Meteor） 30
-      - 美国（Meteor） 31
-      - 美国（Meteor） 32
-      - 美国（Meteor） 33
-      - 美国（Meteor） 34
-      - 美国（Meteor） 35
-      - 美国（Meteor） 36
-      - 美国（Meteor） 37
-      - 美国（Meteor） 38
-      - 台湾（Meteor）
-      - 台湾（Meteor） 2
-      - 台湾（Meteor） 3
-      - 台湾（Meteor） 4
-      - 台湾（Meteor） 5
-      - 新加坡（Meteor）
-      - 新加坡（Meteor） 2
-      - 新加坡（Meteor） 3
-      - 新加坡（Meteor） 4
-      - 新加坡（Meteor） 5
-      - 俄罗斯（Meteor）
-      - 俄罗斯（Meteor） 2
-      - 荷兰（Meteor）
-      - 韩国（Meteor）
-      - 韩国（Meteor） 2
-      - 韩国（Meteor） 3
-      - 日本（Meteor）
-      - 日本（Meteor） 2
-      - 日本（Meteor） 3
-      - 日本（Meteor） 4
-      - 日本（Meteor） 5
-      - 日本（Meteor） 6
-      - 日本（Meteor） 7
-      - 日本（Meteor） 8
-      - 日本（Meteor） 9
-      - 日本（Meteor） 10
-      - 日本（Meteor） 11
-      - 日本（Meteor） 12
-      - 印度（Meteor）
-      - 印度（Meteor） 2
-      - 香港（Meteor）
-      - 香港（Meteor） 2
-      - 香港（Meteor） 3
-      - 香港（Meteor） 4
-      - 香港（Meteor） 5
-      - 香港（Meteor） 6
-      - 香港（Meteor） 7
-      - 香港（Meteor） 8
-      - 香港（Meteor） 9
-      - 香港（Meteor） 10
-      - 香港（Meteor） 11
-      - 香港（Meteor） 12
-      - 英国（Meteor）
-      - 英国（Meteor） 2
-      - 英国（Meteor） 3
-      - 英国（Meteor） 4
-      - 加拿大（Meteor）
-      - 加拿大（Meteor） 2
-      - 加拿大（Meteor） 3
-      - 加拿大（Meteor） 4
-      - 加拿大（Meteor） 5
-      - 澳大利亚（Meteor）
+      - 柬埔寨（Meteor 5.1）
+      - 美国（Meteor 5.1）
+      - 美国（Meteor 5.1） 2
+      - 美国（Meteor 5.1） 3
+      - 美国（Meteor 5.1） 4
+      - 美国（Meteor 5.1） 5
+      - 美国（Meteor 5.1） 6
+      - 美国（Meteor 5.1） 7
+      - 美国（Meteor 5.1） 8
+      - 美国（Meteor 5.1） 9
+      - 美国（Meteor 5.1） 10
+      - 美国（Meteor 5.1） 11
+      - 美国（Meteor 5.1） 12
+      - 美国（Meteor 5.1） 13
+      - 美国（Meteor 5.1） 14
+      - 美国（Meteor 5.1） 15
+      - 美国（Meteor 5.1） 16
+      - 美国（Meteor 5.1） 17
+      - 美国（Meteor 5.1） 18
+      - 美国（Meteor 5.1） 19
+      - 美国（Meteor 5.1） 20
+      - 美国（Meteor 5.1） 21
+      - 美国（Meteor 5.1） 22
+      - 美国（Meteor 5.1） 23
+      - 美国（Meteor 5.1） 24
+      - 美国（Meteor 5.1） 25
+      - 美国（Meteor 5.1） 26
+      - 美国（Meteor 5.1） 27
+      - 美国（Meteor 5.1） 28
+      - 美国（Meteor 5.1） 29
+      - 美国（Meteor 5.1） 30
+      - 美国（Meteor 5.1） 31
+      - 美国（Meteor 5.1） 32
+      - 美国（Meteor 5.1） 33
+      - 美国（Meteor 5.1） 34
+      - 美国（Meteor 5.1） 35
+      - 美国（Meteor 5.1） 36
+      - 美国（Meteor 5.1） 37
+      - 美国（Meteor 5.1） 38
+      - 台湾（Meteor 5.1）
+      - 台湾（Meteor 5.1） 2
+      - 台湾（Meteor 5.1） 3
+      - 台湾（Meteor 5.1） 4
+      - 台湾（Meteor 5.1） 5
+      - 新加坡（Meteor 5.1）
+      - 新加坡（Meteor 5.1） 2
+      - 新加坡（Meteor 5.1） 3
+      - 新加坡（Meteor 5.1） 4
+      - 新加坡（Meteor 5.1） 5
+      - 俄罗斯（Meteor 5.1）
+      - 俄罗斯（Meteor 5.1） 2
+      - 荷兰（Meteor 5.1）
+      - 韩国（Meteor 5.1）
+      - 韩国（Meteor 5.1） 2
+      - 韩国（Meteor 5.1） 3
+      - 日本（Meteor 5.1）
+      - 日本（Meteor 5.1） 2
+      - 日本（Meteor 5.1） 3
+      - 日本（Meteor 5.1） 4
+      - 日本（Meteor 5.1） 5
+      - 日本（Meteor 5.1） 6
+      - 日本（Meteor 5.1） 7
+      - 日本（Meteor 5.1） 8
+      - 日本（Meteor 5.1） 9
+      - 日本（Meteor 5.1） 10
+      - 日本（Meteor 5.1） 11
+      - 日本（Meteor 5.1） 12
+      - 印度（Meteor 5.1）
+      - 印度（Meteor 5.1） 2
+      - 香港（Meteor 5.1）
+      - 香港（Meteor 5.1） 2
+      - 香港（Meteor 5.1） 3
+      - 香港（Meteor 5.1） 4
+      - 香港（Meteor 5.1） 5
+      - 香港（Meteor 5.1） 6
+      - 香港（Meteor 5.1） 7
+      - 香港（Meteor 5.1） 8
+      - 香港（Meteor 5.1） 9
+      - 香港（Meteor 5.1） 10
+      - 香港（Meteor 5.1） 11
+      - 香港（Meteor 5.1） 12
+      - 英国（Meteor 5.1）
+      - 英国（Meteor 5.1） 2
+      - 英国（Meteor 5.1） 3
+      - 英国（Meteor 5.1） 4
+      - 加拿大（Meteor 5.1）
+      - 加拿大（Meteor 5.1） 2
+      - 加拿大（Meteor 5.1） 3
+      - 加拿大（Meteor 5.1） 4
+      - 加拿大（Meteor 5.1） 5
+      - 澳大利亚（Meteor 5.1）
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
